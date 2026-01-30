@@ -1,0 +1,2 @@
+php digunakan untuk pembuatan web dinamis, yang dapat menyesuaikan konten sesuai dengan situasi.
+data bisa disimpan di database, web dapat berubah tergantung input user

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pemesanan Tiket Pesawat</title>
+  </head>
+  <body>
+    <h2>TIKET ONLINE JAKARTA - MALAISYA</h2>
+    <form action="struk.php" method="post">
+      <table>
+        <tr>
+          <td>Nama</td>
+          <td>: <input type="text" name="nama" id="nama" required /></td>
+        </tr>
+        <tr>
+          <td>Pilih Kode Pesawat</td>
+          <td>
+            :
+            <select name="kode_pesawat" id="kode_pesawat">
+              <option value="GRD">GRD</option>
+              <option value="MPT">MPT</option>
+              <option value="BTV">BTV</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Pilih Kelas</td>
+          <td>
+            :
+            <input
+              type="radio"
+              name="kelas"
+              id="kelas"
+              value="Eksekutif"
+              checked
+            />
+            Eksekutif <br />
+            &nbsp;&nbsp;<input
+              type="radio"
+              name="kelas"
+              id="Bisnis"
+              value="Bisnis"
+            />
+            Bisnis
+            <br />
+            &nbsp;&nbsp;<input
+              type="radio"
+              name="kelas"
+              id="Ekonomi"
+              value="Ekonomi"
+            />
+            Ekonomi
+          </td>
+        </tr>
+        <tr>
+          <td>Jumlah Tiket</td>
+          <td>: <input type="number" name="jumlah" id="jumlah" required /></td>
+        </tr>
+        <td colspan="2">
+          <button type="submit" name="simpan">SIMPAN</button>
+          <button type="reset">BATAL</button>
+        </td>
+      </table>
+    </form>
+  </body>
+</html>
